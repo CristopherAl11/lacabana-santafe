@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Esto es un comentario -->
+
+<head>
+    <title>Portafolio Profesional - Cristopher Alexis Hay Arceo</title>
+    <link rel="stylesheet" href="main.css"> <!--Enlaza el archivo CSS-->
+    <meta charset="UTF-8"> <!--Codificacion de caracteres-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Para que sea responsivo-->
+</head>
+
+
+<body>
+    <!-- Styles moved to main.css; header styling will be applied from that file -->
+
+    <!--TODO LO QUE COLOQUEN LO VERA EL USUARIO-->
+    <header>
+        <h1>Portafolio Profesional</h1>
+        <h4>Cristopher Alexis Hay Arceo</h4>
+    </header>
+
+    <!-- Navegación principal (moved below header so it doesn't overlap the title) -->
+    <nav class="main-nav">
+        <a href="#">Sobre Mi</a>
+        <a href="#">Mi experiencia</a>
+        <a href="#">Proyectos tecnologicos</a>
+        <a href="#">Competencias Profesionales</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <!--contenido principal-->
+    <main>
+        <!-- Welcome / introduction similar to the screenshot -->
+        <section class="welcome">
+            <h2>Bienvenidos a mi portafolio profesional</h2>
+            
+        </section>
+     
+        <section>
+            <h2>Sobre Mi</h2>
+            <p>Hola, mi nombre es <mark>Cristopher Alexis Hay Arceo</mark>, tengo 19 años y <strong>soy estudiante de Ingenieria en Sistemas</strong> Computacionales en el Instituto Tecnologico de Quintana Roo. Me apasiona la programacion y el desarrollo 
+                software, y estoy emocionado por compartir mi portafolio profesional con ustedes.</p>
+            <h2>Mi experiencia</h2>
+            <p>Tengo experiencia en varios lenguajes de programacion, incluyendo HTML, CSS, JavaScript, y C#. He
+                trabajado en proyectos tanto individuales como en equipo, lo que me ha permitido desarrollar habilidades de
+                colaboracion y comunicacion efectivas.</p>
+        
+        </section>
+    <!-- Imagen solicitada (versión pequeña) -->
+        <div style="text-align:center; margin:1rem 0;">
+            <img src="https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg" alt="Imagen solicitada" width="300" height="300" style="border-radius:6px; display:block; margin:0 auto;">
+        </div>
+
+        <!-- Projects band similar to the provided screenshot -->
+        <section id="projects" class="projects-band">
+            <div class="projects-inner">
+                <div class="projects-list">
+                    <h3>Proyectos Tecnológicos</h3>
+                    <div class="cards-grid">
+                        <article class="card">
+                            <h4><a href="#">Sistema de Estadías</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur repellendus nobis soluta dolorum modi voluptas.</p>
+                        </article>
+                        <article class="card">
+                            <h4><a href="#">Sistema de Veterinarias</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur repellendus nobis soluta dolorum modi voluptas.</p>
+                        </article>
+                        <article class="card">
+                            <h4><a href="#">Sistema de Florerías</a></h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur repellendus nobis soluta dolorum modi voluptas.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Competencias + Contacto grouped side-by-side -->
+    <section class="competencias-area" style="max-width:1100px; margin:2rem auto; padding:0 1rem;">
+        <div style="display:flex; gap:2rem; align-items:flex-start;">
+            <!-- Competencias -->
+            <div style="flex:1;">
+                <h2 style="text-align:left;">Competencias Profesionales</h2>
+                <div style="display:flex; gap:2rem; flex-wrap:wrap;">
+                    <span style="background:#cfeff3; padding:0.5rem 1rem; border-radius:20px;">HTML5</span>
+                    <span style="background:#cfeff3; padding:0.5rem 1rem; border-radius:20px;">CSS</span>
+                    <span style="background:#cfeff3; padding:0.5rem 1rem; border-radius:20px;">JavaScript</span>
+                    <span style="background:#cfeff3; padding:0.5rem 1rem; border-radius:20px;">C#</span>
+                </div>
+                <h3 style="margin-top:1rem;">Nivel de Habilidades</h3>
+                <div>
+                    <label>HTML</label>
+                    <div style="background:#eee; height:10px; border-radius:6px; overflow:hidden; margin:6px 0;"><div style="width:80%; height:100%; background:#444"></div></div>
+                    <label>CSS</label>
+                    <div style="background:#eee; height:10px; border-radius:6px; overflow:hidden; margin:6px 0;"><div style="width:60%; height:100%; background:#444"></div></div>
+                    <label>JavaScript</label>
+                    <div style="background:#eee; height:10px; border-radius:6px; overflow:hidden; margin:6px 0;"><div style="width:45%; height:100%; background:#444"></div></div>
+                    <label>C#</label>
+                    <div style="background:#eee; height:10px; border-radius:6px; overflow:hidden; margin:6px 0;"><div style="width:30%; height:100%; background:#444"></div></div>
+                </div>
+            </div>
+
+            <!-- Formulario de contacto -->
+            <div style="flex:1;">
+                <h2>Contacto</h2>
+                <p>Si deseas ponerte en contacto conmigo, puedes enviarme un correo electronico a <a href="mailto:Cristohayarceo@gmail.com">Cristohayarceo@gmail.com</a>.</p>
+                <form style="display:flex; flex-direction:column; gap:0.75rem;">
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Escribe tu nombre" style="padding:0.5rem; border-radius:8px; border:2px solid #2433ff;">
+                    <label>Telefono:</label>
+                    <input type="text" placeholder="Escribe tu numero " style="padding:0.5rem; border-radius:8px; border:2px solid #2433ff;">
+                    <button type="submit" style="background:#0b2bff; color:white; padding:0.75rem; border-radius:24px; border:none; width:140px;">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials and partner logos -->
+    <section class="testimonials-logos" style="max-width:1100px; margin:2rem auto; padding:1rem;">
+        <div class="testimonials">
+            <article class="testimonial">
+                <p class="quote">"Cristopher entregó el proyecto a tiempo, con código limpio y una comunicación excelente. Recomiendo su trabajo."</p>
+                <p class="author">— Ing. María López, Coordinadora de Proyectos</p>
+            </article>
+            <article class="testimonial">
+                <p class="quote">"Su capacidad para aprender nuevas tecnologías y aplicarlas fue clave para el éxito del proyecto."</p>
+                <p class="author">— Lic. Juan Pérez, Cliente</p>
+            </article>
+        </div>
+
+        <div class="partner-logos" aria-label="Logos de colaboradores">
+            <img class="logo" src="https://images.pexels.com/photos/267614/pexels-photo-267614.jpeg" alt="logo 1">
+            <img class="logo" src="https://images.pexels.com/photos/158773/office-desk-business-computer-158773.jpeg" alt="logo 2">
+            <img class="logo" src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" alt="logo 3">
+            <img class="logo" src="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg" alt="logo 4">
+        </div>
+    </section>
+
+    <footer>
+        <p>Derechos reservados 2025 &copy;</p>
+    </footer>
+</body>
+
+</html>
